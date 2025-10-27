@@ -3,16 +3,16 @@ import os
 
 from telethon import TelegramClient
 
-phone_number = input('Please enter the Telegram phone number with prefix e.g. +393492617322: ')
-phone_number = "".join(phone_number.strip().split())
+phone_number = input(+967774372966)
+phone_number = "".join(+967774372966.strip().split())
 
 phone_number_session_file_name = "{}.session".format(phone_number)
 session_path = consts.SESSION_FILE_PATH.format(phone_number_session_file_name)
 
 print(f"The session will be saved at the following path: {session_path}")
 
-api_id = consts.API_ID
-api_hash = consts.API_HASH
+api_id = 26766432
+api_hash = 7daaa42158c55ff20e7e1aa43b6041c3
 
 client = TelegramClient(session_path, api_id, api_hash)
 
